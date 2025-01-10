@@ -1,0 +1,17 @@
+[package]
+name = "rustwatch"
+version = "0.1.0"
+description = "🦊 A lightning-fast, parallel log file error scanner"
+authors = ["John Söllner <tridlegames@gmail.com>"]
+repository = "https://github.com/JohnSoellnerDev/RustWatch"
+license = "MIT"
+keywords = ["logs", "monitor", "error", "parallel", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+libc = "0.2.140"
+colored = "2.0"
+indicatif = "0.17"
+humansize = "2.1"
+chrono = "0.4"
+rayon = "1.7"
